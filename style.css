@@ -1,0 +1,103 @@
+*{
+margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.container{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background-color: white;
+}
+.container .forms{
+    background-color: white;
+    width: 101%;
+}
+.container .form{
+    padding: 30px;
+
+}
+.container .form .title{
+    font-size: 27px;
+    font-weight: 600;
+    display: flex;
+align-items: center;
+    justify-content: center;
+}
+.form .inputField{
+    margin-top: 30px;
+    height: 50px;
+    width: 100%;
+}
+.inputField input{
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+    border-top: 2px solid transparent;
+    font-size: 16px;
+
+}
+.optionalText{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.optionalText .text{
+    text-decoration: none;
+    color: grey;
+}
+.optionalText .text:hover{
+    color: lightsteelblue;
+}
+.optionalText .text-new{
+    text-decoration: none;
+    color: grey;
+}
+.optionalText .text-new:hover{
+    color: lightsteelblue;
+}
+.form .button .mainBtn{
+    margin-top: 35px;
+}
+.optionalText .text-login{
+    text-decoration: none;
+    color: grey;
+}
+.optionalText .text-login:hover{
+    color: lightsteelblue;
+}
+.form .button input:hover{
+    background-color: lightsteelblue;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.form .button input{
+    border: none;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+.Signup{
+    display: none;
+}
+.container.active .login{
+    display: none;
+    width: 200px;
+    padding: 10px;
+    transition: all 0.5s ease;
+}
+.container.active .Signup{
+    display: revert;
+    transition: all 0.5s ease;
+}
