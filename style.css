@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Montserrat:wght@300&family=Nanum+Gothic:wght@700&display=swap');
+
+
 *{
 margin: 0;
     padding: 0;
@@ -30,6 +33,7 @@ body{
     display: flex;
 align-items: center;
     justify-content: center;
+    font-family: 'Montserrat', sans-serif;
 }
 .form .inputField{
     margin-top: 30px;
@@ -45,6 +49,7 @@ align-items: center;
     border-bottom: 2px solid grey;
     border-top: 2px solid transparent;
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
 .optionalText{
     display: flex;
@@ -54,6 +59,7 @@ align-items: center;
 .optionalText .text{
     text-decoration: none;
     color: grey;
+    /*font-family: 'Montserrat', sans-serif;*/
 }
 .optionalText .text:hover{
     color: lightsteelblue;
@@ -61,6 +67,7 @@ align-items: center;
 .optionalText .text-new{
     text-decoration: none;
     color: grey;
+    /*font-family: 'Montserrat', sans-serif;*/
 }
 .optionalText .text-new:hover{
     color: lightsteelblue;
@@ -86,6 +93,7 @@ align-items: center;
     font-size: 18px;
     font-weight: bold;
     border-radius: 7px;
+    font-family: 'Montserrat', sans-serif;
 }
 .Signup{
     display: none;
